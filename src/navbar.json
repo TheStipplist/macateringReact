@@ -1,0 +1,44 @@
+{
+    "home":{
+        "link":"Home",
+        "route": "/home",
+        "dropdown": [
+            {"link": "expectations", "route":"/expectations"},
+            {"link":"Meet our Chef", "route":"/meetOurChef"}
+        ]
+    },
+    "weddings":{
+        "link": "Weddings",
+        "route": "/weddings",
+        "dropdown": [
+            {"link": "Appetizers", "route": "/appetizers"},
+            {"link": "Buffet", "route": "/buffet"},
+            {"link": "Entree", "route": "/entree"},
+            {"link": "Dessert", "route": "/dessert"}
+        ]
+    },
+    "corporate":{
+        "link": "Corporate",
+        "route": "/corporate",
+        "dropdown": []
+    },
+    "themeEvents":{
+        "link": "Theme Events",
+        "route": "/themeEvents",
+        "dropdown": [
+            {"link": "BBQ's", "route": "/bbqs"},
+            {"link": "Simple Buffet", "route": "/simpleBuffet"},
+            {"link": "Lobster Bake", "route": "/lobsterBake"}
+        ]
+    },
+    "privateChef":{
+        "link": "Private Chef",
+        "route": "/privateChef",
+        "dropdown": []
+    },
+    "contact":{
+        "link": "contact",
+        "route": "/contact",
+        "dropdown": []
+    }
+}
