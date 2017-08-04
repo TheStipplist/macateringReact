@@ -4,8 +4,10 @@ import './App.css';
 import logo from './images/macateringLogo.png'
 import cakes from './cakes.json';
 import Navbar from './Navbar';
+import Taskbar from './Taskbar';
 import navbarData from './navbar.json';
-import Gallery from './Gallery'
+import Gallery from './Gallery';
+import {Router, Route, Link, IndexRoute, hashHistory, browserHistory} from 'react-router'
 
 
 // navbarData.forEach((item) => console.log(item))
@@ -17,6 +19,13 @@ var heading =
                     <Navbar />
                 </div>
                 <Gallery />
+                <Taskbar />
+                <div id = 'build-stage'>
+                <Router history={hashHistory}>
+                  <Route path='/:view' component={View} />
+                  <Route path='/:menu' component={Menu} />
+                  </Router>
+                </div>
               </div>;
 
 
